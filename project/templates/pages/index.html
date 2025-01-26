@@ -1,0 +1,19 @@
+{%  extends 'base.html'  %}
+
+{%load static%}
+{% block content %}
+{% comment%}
+<h4>dsdcddvdcdvdvd</h4>
+{% endcomment%}
+{%for x in name %}
+  <p>{{x}}</p>
+{% endfor %}
+  <h1>hello world</h1>
+  <h4>hello world</h4>
+  name={{name|cut:'m'}}
+  <h1>age={{age|filesizeformat}}</h1>
+{% endblock content%}
+
+
+
+
